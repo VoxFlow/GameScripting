@@ -17,7 +17,7 @@ game:GetService("RunService").RenderStepped:Connect(function()
                 f.Font = Enum.Font.SciFi
             f.BackgroundTransparency = 1
                 f.TextScaled = true
-                f.Size = UDim2.new(1,0,1,0)
+                f.Size = UDim2.new(0.2,0,0.2,0)
                 if string.find(a.Name, "M11") then
                     f.TextColor3 = Color3.new(0.615686, 0, 1)
                 else
