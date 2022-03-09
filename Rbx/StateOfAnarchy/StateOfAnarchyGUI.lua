@@ -38,7 +38,7 @@ if (not pcall(function()
     
     local library;
     if (not pcall(function()
-        library = loadstring(game:HttpGet("https://parr0t.xyz/s/0d7a31d8-d91a-44eb-9c7a-dbacdb22164d.lua", true))();
+        library = loadstring(game:HttpGet("https://raw.githubusercontent.com/VoxFlow/GameScripting/main/Rbx/StateOfAnarchy/StateOfAnarchyLibrary.lua", true))();
     end)) then
         return localPlayer:Kick("An error occurred when attempting to load the UI library, please report this in the discord server - https://parr0t.xyz/discord");
     end;
