@@ -38,7 +38,7 @@ if (not pcall(function()
     
     local library;
     if (not pcall(function()
-        library = loadstring(game:HttpGet("https://raw.githubusercontent.com/VoxFlow/GameScripting/main/Rbx/StateOfAnarchy/StateOfAnarchyLibrary.lua", true))();
+        library = loadstring(game:HttpGet("https://raw.githubusercontent.com/VoxFlow/GameScripting/main/Rbx/StateOfAnarchy/JanUILib.lua", true))(); 
     end)) then
         return localPlayer:Kick("An error occurred when attempting to load the UI library, please report this in the discord server - https://parr0t.xyz/discord");
     end;
@@ -145,7 +145,7 @@ if (not pcall(function()
     
     local window = library:CreateWindow("State of Anarchy");do
         if (not pcall(function()
-            loadstring(game:HttpGet("https://raw.githubuster.com/VoxFlow/Lib.lua", true))();
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/VoxFlow/GameScripting/main/Rbx/StateOfAnarchy/StateOfAnarchyESPLib.lua", true))();
         end)) then
             return localPlayer:Kick("An error occurred when attempting to load the ESP library, please report this in the discord server - https://parr0t.xyz/discord");
         end;
